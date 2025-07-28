@@ -2,6 +2,10 @@
 
 PingPro is a command-line network ping tool written in Go. It supports multiple protocols including TCP, UDP, and ICMP, allowing you to test connectivity to a host and port with configurable options.
 
+## Showcase Image
+
+[Showcase](image.png)
+
 ## Features
 
 * Supports TCP, UDP, and ICMP ping types
