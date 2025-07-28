@@ -4,7 +4,7 @@ PingPro is a command-line network ping tool written in Go. It supports multiple 
 
 ## Showcase Image
 
-[Showcase](image.png)
+![image](https://github.com/user-attachments/assets/83d31f37-ded8-4c3d-8369-7cf470d50853)
 
 ## Features
 
