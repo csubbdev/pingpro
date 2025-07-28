@@ -26,7 +26,7 @@ func main() {
 
 	args := pflag.Args()
 	if len(args) < 2 {
-		fmt.Println("Usage: ./pingpro <host> <port> [-t tcp|udp|icmp] [-o timeout] [-i interval] [--color]")
+		fmt.Println("Usage: ./pingpro <host> <port> [-t tcp|udp|icmp] [-o timeout] [-i interval]")
 		os.Exit(1)
 	}
 
