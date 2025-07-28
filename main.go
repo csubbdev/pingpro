@@ -61,7 +61,7 @@ func main() {
 
 		if success {
 			line := fmt.Sprintf("\033[0mConnected to \033[92m%s\033[0m time=\033[92m%.2f ms\033[0m protocol=\033[92m%s\033[0m port=\033[92m%d\033[0m", host, elapsed, strings.ToUpper(pingType), port)
-			fmt.Printf("\033[32m%s\033[0m\n", line)
+			fmt.Printf("%s\n", line)
 		} else {
 			fmt.Printf("\033[91m%s\033[0m", result)
 		}
